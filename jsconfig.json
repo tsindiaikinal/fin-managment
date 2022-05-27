@@ -1,4 +1,9 @@
 {
+  "vueCompilerOptions": {
+    "experimentalDisableTemplateSupport": true,
+    "jsx": "preserve",
+    "experimentalShamefullySupportOptionsApi": false
+  },
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
