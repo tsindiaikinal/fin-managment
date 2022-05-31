@@ -33,17 +33,11 @@ export default {
 .app-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 25px 35px;
 }
 
 nav {
-  padding: 30px;
-
   a {
-    font-weight: bold;
-    color: #2e2e2e;
-
     &.router-link-exact-active {
       color: #42b983;
     }
