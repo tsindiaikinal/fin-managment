@@ -1,6 +1,6 @@
 <template>
   <div class="top-container">
-    <h1>{{ title }}</h1>
+    <h1 :style="{ color: color }">{{ title }}</h1>
     <slot></slot>
   </div>
 </template>
@@ -10,6 +10,9 @@ export default {
   name: "TopContainer",
   props: {
     title: {
+      type: String,
+    },
+    color: {
       type: String,
     },
   },
