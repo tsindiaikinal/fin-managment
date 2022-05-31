@@ -11,8 +11,8 @@ export default {};
 <style lang="scss" scoped>
 .main-container {
   width: 80%;
-  height: 100vh;
+  // height: 100vh;
   flex-shrink: 1;
-  border: 1px solid #3263be;
+  // border: 1px solid #3263be;
 }
 </style>
