@@ -1,13 +1,17 @@
 <template>
   <div class="home">
-    <top-container :title="mainTitle"></top-container>
-    <div class="home__panel"></div>
-    <div class="home__diagram"></div>
+    <top-container
+      class="home__title"
+      color="brown"
+      :title="mainTitle"
+    ></top-container>
+    <div class="home__logo">
+      <img src="@/assets/logo.svg" alt="Logo" title="HOME PAGE" />
+    </div>
   </div>
 </template>
 
 <script>
-// import SideMenu from "@/components/SideMenu.vue";
 export default {
   name: "HomeView",
   data() {
@@ -20,14 +24,16 @@ export default {
 <style lang="scss" scoped>
 .home {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 35px;
+  justify-content: center;
   align-items: center;
-  &__panel {
-    padding: 10px;
+  &__title {
   }
-
-  &__diagram {
-    padding: 25px;
+  &__logo {
+    img {
+      width: 300px;
+    }
   }
 
   /*   &__main {
