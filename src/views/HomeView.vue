@@ -28,8 +28,7 @@ export default {
   padding-top: 35px;
   justify-content: center;
   align-items: center;
-  &__title {
-  }
+  // &__title {}
   &__logo {
     img {
       width: 300px;
