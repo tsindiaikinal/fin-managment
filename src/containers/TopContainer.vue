@@ -14,6 +14,7 @@ export default {
     },
     color: {
       type: String,
+      default: "currentColor",
     },
   },
 };
