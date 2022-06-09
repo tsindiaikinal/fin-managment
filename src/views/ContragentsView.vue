@@ -7,9 +7,7 @@
 </template>
 
 <script>
-import TopContainer from "@/components/containers/TopContainer.vue";
 export default {
-  components: { TopContainer },
   name: "ContragentsView",
   data() {
     return {
