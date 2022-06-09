@@ -1,11 +1,13 @@
 <template>
-  <button class="fin-btn">
+  <button class="fin-btn" @click="$emit('click', $event)">
     <slot></slot>
   </button>
 </template>
 
 <script>
-export default {};
+export default {
+  name: "finButton",
+};
 </script>
 
 <style lang="scss" scoped>
